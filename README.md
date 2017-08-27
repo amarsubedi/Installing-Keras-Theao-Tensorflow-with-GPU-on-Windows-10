@@ -1,4 +1,4 @@
-# Installing Keras Theao Tensorflow with GPU on Windows 10
+# Installing Keras, Theano, and Tensorflow with GPU on Windows 10
 
 **Introduction**
 
