@@ -8,7 +8,7 @@ Installing process
 
 1. Install Visual Studio 2013 and Microsoft Visual C++ 2015 Redistributable Update 3
 
-1a. Dowload and install Visual Studio 2013. 
+   1a. Dowload and install [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=532495)
 
 
 
