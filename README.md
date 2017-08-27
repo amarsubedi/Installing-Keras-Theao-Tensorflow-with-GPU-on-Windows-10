@@ -50,15 +50,13 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
    * Run the following Python script for checking the tensorflow version we have installed. It should be 1.3.0 (August,2017)
    
-      ```
-      import pip
+      ``` import pip
   
       installed_packages = pip.get_installed_distributions()
       installed_packages_list = sorted(["%s==%s" % (i.key, i.version)
         for i in installed_packages])
      
-      print(installed_packages_list)
-      ```
+      print(installed_packages_list) ```
    
    * Download and install [cuDNN 6.0](https://developer.nvidia.com/cudnn). To do that, you need to create an account and login.
    
