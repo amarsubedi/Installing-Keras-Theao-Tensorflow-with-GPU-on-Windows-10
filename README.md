@@ -8,8 +8,7 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
 1. Update NVIDIA Driver 
 
-   * Check your GPU and update its driver [here](http://www.nvidia.com/Download/index.aspx)
-
+   * Check your GPU and update its driver [here](http://www.nvidia.com/Download/index.aspx).
 
 2. Install Visual Studio 2013 and Microsoft Visual C++ 2015 Redistributable Update 3
 
@@ -21,9 +20,21 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
    
 3. Install CUDA 8.0
 
-   * Dowload and install [CUDA 8.0](https://developer.nvidia.com/cuda-downloads)
+   * Dowload and install [CUDA 8.0](https://developer.nvidia.com/cuda-downloads).
    
    * Navigate to *C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0* and compile Samples_vs2013.sln file. This step is to ensure that      your CUDA 8.0 works correctly.
+   
+4. Install Anaconda3 4.2 for Python 3.5 on Windows.
+
+   * Dowload and install [Anaconda3 4.2 for Python 3.5 on Windows](https://repo.continuum.io/archive/index.html).
+   
+   * Open [Anaconda command prompt](https://www.quora.com/How-do-I-start-the-anaconda-command-prompt).
+   
+   
+   
+   
+   
+   
    
 
 
