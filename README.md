@@ -32,9 +32,45 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
    
 5. Install Theano
 
-   * Open [Anaconda command prompt](https://www.quora.com/How-do-I-start-the-anaconda-command-prompt) and run: ``` conda install theano ```
+   * Open [Anaconda command prompt](https://www.quora.com/How-do-I-start-the-anaconda-command-prompt) and run: ```conda install theano```
    
-   * Install the compiler for Theano library by exucuting ``` conda install mingw libpython ```
+   * Install the compiler for Theano library by exucuting: ```conda install mingw libpython```
+   
+6. Install Tensorflow
+
+   * Install Tensorflow for CPU computing by openning the command prompt and execute a pip command: ```pip install tensorflow```
+   
+   * Install Tensorflow for GPU computing by openning the command prompt and execute a pip command: ```pip install tensorflow-gpu```
+   
+7. Install Keras
+
+   * Open the command prompt and execute a pip command: ```pip install keras```
+   
+8. Install CuDNN v6.0
+
+   * Run the following Python script for checking the tensorflow version we have installed. It should be 1.3.0 (August,2017)
+   
+      ```
+      import pip
+  
+      installed_packages = pip.get_installed_distributions()
+      installed_packages_list = sorted(["%s==%s" % (i.key, i.version)
+        for i in installed_packages])
+     
+      print(installed_packages_list)
+      ```
+   
+   * Download and install [cuDNN 6.0](https://developer.nvidia.com/cudnn). To do that, you need to create an account and login.
+   
+   
+   * Extract your ```cudnn-8.0-windows10-x64-v6.0.zip``` file to ```C:\cudnn-8.0-windows10-x64-v6.0``` and add 
+     ```C:\cudnn-8.0-windows10-x64-v6.0\cuda\bin``` to your %PATH%.
+     
+9. Test Theano and Tensorflow with GPU.
+
+
+  
+  
   
    
    
