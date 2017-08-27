@@ -8,7 +8,11 @@ Installing process
 
 1. Install Visual Studio 2013 and Microsoft Visual C++ 2015 Redistributable Update 3
 
-   1a. Dowload and install [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=532495)
+   1a. Download and install [Visual Studio 2013 Update 5](https://go.microsoft.com/fwlink/?LinkId=532495). This framework is use as a              compiler for CUDA source code.
+   
+   2a. Add C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin to your %PATH% as a environment variable.
+   
+2. 
 
 
 
