@@ -8,11 +8,11 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
 1. Install Visual Studio 2013 and Microsoft Visual C++ 2015 Redistributable Update 3
 
-   1a. Download and install [Visual Studio 2013 Update 5](https://go.microsoft.com/fwlink/?LinkId=532495). This framework is use as a              compiler for CUDA source code.
+   - Download and install [Visual Studio 2013 Update 5](https://go.microsoft.com/fwlink/?LinkId=532495). This framework is use as a              compiler for CUDA source code.
    
-   2a. Add *C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin* to your *%PATH%* as a environment variable.
+   - Add *C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin* to your *%PATH%* as a environment variable.
    
-   3c. Check the file MSVCP140.dll in your system. If it does not exist, dowload and install [Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
+   - Check the file MSVCP140.dll in your system. If it does not exist, dowload and install [Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
    
 2. Install CUDA 8.0
 
