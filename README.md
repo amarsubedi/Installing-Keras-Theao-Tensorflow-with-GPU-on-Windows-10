@@ -8,7 +8,7 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
 1. Update NVIDIA Driver 
 
-   Check your GPU and update its driver [here] (http://www.nvidia.com/Download/index.aspx)
+   * Check your GPU and update its driver [here](http://www.nvidia.com/Download/index.aspx)
 
 
 2. Install Visual Studio 2013 and Microsoft Visual C++ 2015 Redistributable Update 3
