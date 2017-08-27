@@ -59,7 +59,7 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
    * Copy [cifar10_cnn.py](https://github.com/fchollet/keras/blob/master/examples/cifar10_cnn.py) source code and create a file named        ```cifar10_cnn.py```
    
-   * Open the command prompt, navigate to ```testTensorflowGPU.py``` (pathfile) and run: 
+   * Open the command prompt, navigate to ```cifar10_cnn.py``` (pathfile) and run: 
    ```C\pathfile\> python cifar10_cnn.py```
    
    
