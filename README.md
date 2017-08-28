@@ -105,7 +105,7 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
     
     * Open the command prompt, navigate to ```cifar10_cnn.py``` (pathfile) and run: 
     
-      ```C\pathfile\> python cifar10_cnn.py```
+      ```C\pathfile\>python cifar10_cnn.py```
     
 **Note**: [Error importing tensorflow](https://github.com/tensorflow/tensorflow/issues/5949) is a common error when installing Tensorflow with GPU. The reason comes from the incorrect use of cuDNN version or the missing **MSVCP140.DLL** file. Upgraded TensorFlow 1.3.0 should go with cuDNN v6.0 and the previous version should go with cuDNN v5.1. More infos about this error, you can find [here](https://github.com/tensorflow/tensorflow/issues/10382), [here](https://github.com/tensorflow/tensorflow/issues/10033) and [here](https://gist.github.com/mrry/ee5dbcfdd045fa48a27d56664411d41c#file-tensorflow_self_check-py). If you miss the **MSVCP140.DLL** file, just dowload and install [Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/en-us/download/details.aspx?id=53587).
 
