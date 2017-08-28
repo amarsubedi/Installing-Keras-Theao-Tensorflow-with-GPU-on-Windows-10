@@ -30,7 +30,9 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
    * Download and install [Anaconda3 4.2 for Python 3.5 on Windows](https://repo.continuum.io/archive/index.html).
    
    * Open [Anaconda command prompt](https://www.quora.com/How-do-I-start-the-anaconda-command-prompt), run: 
+   
      ```conda update conda``` 
+     
      ```conda update --all```
    
 5. Install Theano
