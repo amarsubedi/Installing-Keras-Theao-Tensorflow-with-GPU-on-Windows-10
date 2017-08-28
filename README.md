@@ -45,11 +45,11 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
 
    * Install Tensorflow for CPU computing by openning the command prompt and execute a pip command: 
    
-   ```pip install tensorflow```
+      ```pip install tensorflow```
    
    * Install Tensorflow for GPU computing by openning the command prompt and execute a pip command: 
    
-   ```pip install tensorflow-gpu```
+      ```pip install tensorflow-gpu```
    
 7. Install Keras
 
