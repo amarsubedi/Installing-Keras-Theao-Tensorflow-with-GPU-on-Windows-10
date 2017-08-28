@@ -62,6 +62,36 @@ Installing Keras, Theano, and Tensorflow to train Deep Learning models with CPU 
    * Open the command prompt, navigate to ```cifar10_cnn.py``` (pathfile) and run: 
    ```C\pathfile\> python cifar10_cnn.py```
    
+   * To test Theano, modify the file ```keras.json``` in ```C:\Users\your-name-user\.keras``` as follow:
+   ```
+   {
+    "floatx": "float32",
+    "epsilon": 1e-07,
+    "image_dim_ordering": "th",
+    "backend": "theano"
+   }
+   
+   ```
+   * In ```C:\Users\your-name-user\```, create a ```.theanorc``` file with the following content:
+   
+   ```
+    [global]
+    floatX = float32
+    device = gpu
+
+    [nvcc]
+    compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+    
+    ```
+    
+    * Open the command prompt, navigate to ```cifar10_cnn.py``` (pathfile) and run: 
+    ```C\pathfile\> python cifar10_cnn.py```
+    
+
+
+   
+   
+   
    
    
    
